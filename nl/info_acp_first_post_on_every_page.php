@@ -31,7 +31,6 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 $lang = array_merge($lang, array(
-	'FIRST_POST_ALWAYS_SHOW'			=> 'Always show first post on top of every page in forum topics',
-	'FIRST_POST_ALWAYS_SHOW'			=> 'Toon eerste bericht bovenaan elk onderwerp in forums',
-	'FIRST_POST_ALWAYS_SHOW_EXPLAIN'	=> 'Indien ingeschakeld, wordt het eerste bericht bovenaan elk onderwerp in forums weergegeven',
+	'FIRST_POST_ALWAYS_SHOW'			=> 'Toon eerste bericht boven ieder onderwerp in forums',
+	'FIRST_POST_ALWAYS_SHOW_EXPLAIN'	=> 'Indien ingeschakeld, dan wordt het eerste bericht boven ieder onderwerp in forums weergegeven',
 ));
